@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="DP_NEW-ROUND.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Mayank Singh's Android & Embedded Portfolio using Kotlin, Jetpack Compose & C++." />
+    <script src="script.js"></script>
+    <title>Mayank Singh - Android Developer</title>
+
+</head>
+
+<body>
+    <canvas id="particles"></canvas>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <img src="DP_NEW-ROUND.jpg" alt="Mayank Singh Logo" class="logo-img" />
+                Mayank Singh
+            </a>
+            <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+                &#9776;
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()"></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Mayank Singh</h1>
+                    <p class="subtitle">Android App Developer & Aspiring Embedded Systems Engineer</p>
+                    <p>Crafting modern mobile experiences with Kotlin & Jetpack Compose</p>
+
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="downloadResume()">
+                            📄 Download Resume
+                        </button>
+                        <a href="#contact" class="btn btn-secondary">
+                            💬 Get In Touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">About Me</h2>
+                <div class="about-content animate-on-scroll">
+
+                    <div class="about-image">
+                        <img src="DP_NEW.jpg" alt="Mayank Singh" />
+                    </div>
+
+                    <div class="about-text">
+                        <p>Hello! I’m <strong>Mayank Singh</strong> — a dedicated Android Developer with a strong
+                            command of Kotlin and Jetpack Compose, focused on building intuitive, modern mobile
+                            applications.</p>
+                        <p>With a growing interest in Embedded Systems Engineering, I bring a unique blend of high-level
+                            Android development and low-level hardware programming skills. This cross-disciplinary
+                            approach enables me to design solutions that are not only user-friendly but also efficient
+                            and technically robust.</p>
+                        <p>I’m driven by a passion for clean code, scalable architecture, and continuous learning.
+                            Whether it’s crafting sleek UIs or optimizing backend logic, I strive to deliver
+                            high-quality software experiences that make a difference.</p>
+
+                        <blockquote class="personal-quote">
+                            "Code is the closest thing we have to magic — and I love creating spells that solve
+                            real-world problems."
+                        </blockquote>
+
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div>Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div>Technologies</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">2</div>
+                                <div>Career Paths</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+                <div class="skills-grid animate-on-scroll">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li><strong>Kotlin</strong> - Primary language for Android development</li>
+                            <li><strong>Java</strong> - Legacy Android components & integration</li>
+                            <li><strong>C++</strong> - OOP, data structures, algorithms</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Android Development</h3>
+                        <ul class="skill-list">
+                            <li>Jetpack Compose & Material Design 3</li>
+                            <li>ViewModel & State Management</li>
+                            <li>Navigation & Complex Layouts</li>
+                            <li>Animations & UI/UX</li>
+                            <li>Runtime Permissions</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Libraries & Tools</h3>
+                        <ul class="skill-list">
+                            <li>Retrofit - REST API integration</li>
+                            <li>Coil - Efficient image loading</li>
+                            <li>Gson - JSON parsing</li>
+                            <li>Room Database - Local storage</li>
+                            <li>Android Studio & Gradle</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Architecture & Best Practices</h3>
+                        <ul class="skill-list">
+                            <li>MVVM Architecture</li>
+                            <li>Modular Project Structure</li>
+                            <li>Clean Code Principles</li>
+                            <li>Git & GitHub</li>
+                            <li>Technical Documentation</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Data Structures & Algorithms</h3>
+                        <ul class="skill-list">
+                            <li>Stack operations & conversions</li>
+                            <li>Linked lists & recursion</li>
+                            <li>Operator overloading</li>
+                            <li>Class design in C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Development Tools</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub version control</li>
+                            <li>Gradle build system</li>
+                            <li>Markdown documentation</li>
+                            <li>Android Emulator debugging</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Educational Qualification</h2>
+                <div class="education-timeline animate-on-scroll">
+                    <div class="edu-item">
+                        <h3>Bachelor of Technology in Electronics & Communication</h3>
+                        <span class="edu-duration">2025 – 2029</span>
+                        <p>Ajay Kumar Garg Engineering College, Ghaziabad, U.P.</p>
+                    </div>
+                    <div class="edu-item">
+                        <h3>Senior Secondary Education (Class 12th)</h3>
+                        <span class="edu-duration">2024-2025</span>
+                        <p>Police Modern Senior Secondary School, CBSE</p>
+                    </div>
+                    <div class="edu-item">
+                        <h3>Secondary Education (Class 10th)</h3>
+                        <span class="edu-duration">2022 – 2023</span>
+                        <p>Police Modern Senior Secondary School, CBSE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Projects</h2>
+                <div class="projects-grid animate-on-scroll">
+                    <!-- Completed Projects -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Unit Converter</h3>
+                            <p class="project-description">A comprehensive unit conversion app supporting multiple
+                                categories like length, weight, temperature, and more. Built with modern Android
+                                architecture.</p>
+                            <div class="project-tags">
+                                <span class="tag">Kotlin</span>
+                                <span class="tag">Jetpack Compose</span>
+                                <span class="tag">Material 3</span>
+                            </div>
+                            <a href="#" class="project-link">🔗 View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Wishlist App</h3>
+                            <p class="project-description">A personal wishlist management app with local database
+                                storage. Features CRUD operations, data persistence, and clean UI design.</p>
+                            <div class="project-tags">
+                                <span class="tag">Room Database</span>
+                                <span class="tag">DAO</span>
+                                <span class="tag">MVVM</span>
+                            </div>
+                            <a href="#" class="project-link">🔗 View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Recipe App</h3>
+                            <p class="project-description">A recipe discovery app that fetches data from REST APIs.
+                                Features include recipe search, detailed views, and favorite management.</p>
+                            <div class="project-tags">
+                                <span class="tag">Retrofit</span>
+                                <span class="tag">REST API</span>
+                                <span class="tag">JSON</span>
+                                <span class="tag">HTTP</span>
+                            </div>
+                            <a href="#" class="project-link">🔗 View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Projects -->
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Forecast App</h3>
+                            <p class="project-description">Real-time weather information with location-based forecasts
+                                and beautiful weather animations.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Expense Tracker</h3>
+                            <p class="project-description">Personal finance management app with expense categorization,
+                                budgeting, and financial insights.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">Productivity app with task organization, reminders, and
+                                collaboration features.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Fitness Tracker</h3>
+                            <p class="project-description">Health and fitness monitoring app with workout logging and
+                                progress tracking.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">News Reader App</h3>
+                            <p class="project-description">Modern news aggregation app with personalized feeds and
+                                offline reading capabilities.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Music Player</h3>
+                            <p class="project-description">Feature-rich music player with playlist management and audio
+                                visualization.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">Chat Application</h3>
+                            <p class="project-description">Real-time messaging app with end-to-end encryption and
+                                multimedia sharing.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce App</h3>
+                            <p class="project-description">Full-featured shopping app with product catalog, cart, and
+                                payment integration.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card coming-soon">
+                        <div class="project-content">
+                            <h3 class="project-title">IoT Dashboard</h3>
+                            <p class="project-description">Embedded systems project combining Android development with
+                                IoT device monitoring.</p>
+                            <div class="project-tags">
+                                <span class="tag">Coming Soon</span>
+                            </div>
+                            <a href="#" class="project-link">🚧 In Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content animate-on-scroll">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p>I'm always interested in discussing new opportunities, collaborating on projects, or just having
+                        a chat about technology and development.</p>
+
+                    <div class="cta-buttons">
+                        <a href="mailto:devmayank755@gmail.com" class="btn btn-primary">
+                            📧 Email Me
+                        </a>
+                        <a href="https://www.linkedin.com/in/mayank-singh-b799852a8/" class="btn btn-secondary" target="_blank">
+                            💼 LinkedIn
+                        </a>
+                        <a href="https://github.com/MayankSingh755/" class="btn btn-secondary" target="_blank">
+                            🐙 GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mayank Singh. Built with passion for Android development and embedded systems.</p>
+        </div>
+    </footer>
+</body>
