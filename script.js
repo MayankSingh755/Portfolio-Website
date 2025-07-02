@@ -11,7 +11,7 @@ function toggleTheme() {
 }
 
 function downloadResume() {
-    window.open("/MayankSingh_Resume.pdf", "_blank");
+    window.open("/Mayank_Singh_Resume.pdf", "_blank");
 }
 
 // Theme persistence
