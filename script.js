@@ -1,7 +1,3 @@
-function downloadResume() {
-    window.open("Mayank_Singh_Resume.pdf", "_blank");
-}
-
 function toggleTheme() {
     const body = document.body;
     const currentTheme = body.getAttribute("data-theme");
