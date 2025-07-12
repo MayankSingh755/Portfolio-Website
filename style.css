@@ -635,3 +635,37 @@ footer {
     font-weight: 700;
     color: var(--primary-color);
 }
+footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 2rem 0;
+  font-size: 0.95rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left {
+  color: var(--text-secondary);
+}
+
+.footer-right a {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: var(--primary-color);
+}
+
+.back-to-top {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
